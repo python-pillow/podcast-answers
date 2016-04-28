@@ -84,3 +84,7 @@ Have you kept up to date with newer image formats, such as webp? Are there any i
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Yes. Read/write support for both WebP and JPEG2000 have been added to Pillow. And since I returned to NIH in 2013, I'd like to see some medical image formats supported e.g. DICOM, NIfTI.
+
++----------------+-------------------------------------------------------------------+
+| **Discussion** | https://github.com/python-pillow/podcast-answers/issues/5         |
++----------------+-------------------------------------------------------------------+
