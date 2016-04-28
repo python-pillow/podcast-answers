@@ -6,7 +6,20 @@ Gathering questions and answers for Podcast.__init__ interview scheduled for ton
 How did you get introduced to Python?
 -------------------------------------
 
-In the early 2000s I was working at the National Institutes of Health as a System Administrator and my group needed a website. A neighboring group was using `Plone <http://plone.com>`_ and I decided to copy their approach. Plone is written in Python & built on top various `Zope <https://en.wikipedia.org/wiki/Zope>`_ technologies written in Python & C. To customize Plone, you had to know a little Python, so that was my introduction. (Incidentally, that site is still running: https://afni.nimh.nih.gov/.)
+In the early 2000s I was working at the National Institutes of Health in Bethesda, MD, USA (NIH) as a System Administrator and my group needed a website. A neighboring group was using `Plone <http://plone.com>`_ and I decided to copy their approach. Plone is written in Python & built on top various `Zope <https://en.wikipedia.org/wiki/Zope>`_ technologies written in Python & C. To customize Plone, you had to know a little Python, so that was my introduction. (Incidentally, that site is still running: https://afni.nimh.nih.gov/.)
 
 What were you working on that led you to forking the Python Image Library (PIL)
 -------------------------------------------------------------------------------
+
+By the mid-2000s, I had quit my job at NIH to do Plone consulting fulltime. In 2010, I was doing Django development consulting at National Geographic in DC and I remember coming in the next day and saying "I forked PIL last night." My colleagues' reaction was **yawn** and rightfully so, because no one thought about what Pillow could become, including me. I created the fork because I was annoyed with my inability to install PIL from PyPI. The PIL package was hosted off site; worse, it had flaws no one was able to address upstream. This led to the proliferation of (what I felt to be annoying and inelegant) forks not hosted on PyPI e.g.:
+
+- http://dist.plone.org/thirdparty/PIL-1.1.7.tar.gz
+- http://dist.plone.org/thirdparty/PILwoTk-1.1.6.4.tar.gz
+
+So I thought, if we're going to be using these forks let's just go all-in and publish the fork to PyPI. So that's what I did. Incidentally, the fork was based on work done by a "Plone guy" (at the time) named Hanno Schlicting. He address one major annoyance (with namespace collision)::
+
+    import Image
+
+With Hanno's PIL, it was only possible to import Image from PIL::
+
+    from PIL import Image
