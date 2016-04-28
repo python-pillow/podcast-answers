@@ -16,7 +16,7 @@ By the mid-2000s, I had quit my job at NIH to do Plone consulting fulltime. In 2
 - http://dist.plone.org/thirdparty/PIL-1.1.7.tar.gz
 - http://dist.plone.org/thirdparty/PILwoTk-1.1.6.4.tar.gz
 
-So I thought, if we're going to use these forks, let's "go all-in" and publish the fork to PyPI. So that's what I did. Incidentally, the fork was based on work done by a "Plone guy" (at the time) named Hanno Schlicting. He address one major annoyance (with namespace collision)::
+So I thought, if we're going to use these forks, let's just "go all-in" and publish the fork to PyPI. So that's what I did. Incidentally, the fork was based on work done by a "Plone guy" (at the time) named Hanno Schlicting. He address one major annoyance (with namespace collision)::
 
     import Image
 
