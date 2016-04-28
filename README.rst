@@ -47,7 +47,7 @@ Sure. PIL allows Python programmers to `perform complex image manipulation opera
 - Splitting the image into its respective bands, i.e. Red, Green, and Blue for RGB
 - Applying a filter to the image
 
-As a Python Web Developer, I use Pillow to manipulate images in my web applications. In some cases, that manipulation is seemless (e.g. Plone uses Pillow to enable content editors to manipulate images on their website). In other cases, I write Pillow code to perform some manipulation that is needed in my application (e.g. create thumbnails).
+As a Python Web Developer, I use Pillow to manipulate images in my web applications. In some cases, that manipulation is seemless (i.e. the image manipulation code is already written; e.g. Plone uses Pillow to enable content editors to manipulate images on their website). In other cases, I write Pillow code to perform some manipulation that is needed in my application (e.g. create thumbnails).
 
 Additional use cases
 ~~~~~~~~~~~~~~~~~~~~
