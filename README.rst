@@ -54,10 +54,6 @@ Discussion
 
 - `Can you describe what PIL and now Pillow are and what kinds of use cases they support? <https://github.com/python-pillow/podcast-answers/issues/1>`_
 
-.. raw:: html
-
-    <hr>
-
 What architectural patterns does Pillow use to make image operations fast and flexible? Have you found the need to do any significant refactorings of the original code to make it compatible with modern uses and execution environments?
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -67,7 +63,3 @@ Discussion
 ~~~~~~~~~~
 
 - `What architectural patterns does Pillow use to make image operations fast and flexible? Have you found the need to do any significant refactorings of the original code to make it compatible with modern uses and execution environments? <https://github.com/python-pillow/podcast-answers/issues/2>`_
-
-.. raw:: html
-
-    <hr>
