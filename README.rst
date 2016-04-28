@@ -27,6 +27,6 @@ With Hanno's PIL, it was only possible to import Image from PIL::
 What does Fredrik Lundh (author of PIL) think of Pillow?
 --------------------------------------------------------
 
-My favorite story to tell about Fredrik involves a comment he made in response to `my introduction to Pillow on image-sig <https://mail.python.org/pipermail/image-sig/2010-July/006423.html>`_. He said something like "A lot of people complain; at least someone is doing something about it." Or at least, that's how I choose to interpret his comments. His exact words (and more context) are here:
+My favorite story to tell about Fredrik involves a comment he made in response to `my introduction to Pillow on image-sig <https://mail.python.org/pipermail/image-sig/2010-July/006423.html>`_. He said something like "A lot of people complain; at least someone is doing something about it." Or at least that's how I choose to interpret his comment. His exact words (and more context) are here:
 
 - https://mail.python.org/pipermail/image-sig/2010-August/006429.html
