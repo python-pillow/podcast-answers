@@ -11,7 +11,7 @@ In the early 2000s I was working at the National Institutes of Health in Bethesd
 What were you working on that led you to forking the Python Image Library (PIL)
 -------------------------------------------------------------------------------
 
-By the mid-2000s, I had quit my job at NIH to do Plone consulting fulltime. In 2010, I was doing Django consulting at National Geographic in DC and I remember coming in the next day and saying "I forked PIL last night." My colleagues' reaction was **yawn** and rightfully so, because no one thought about what Pillow could become, including me. I created the fork because I was annoyed with my inability to install PIL from PyPI. The PIL package was hosted off site; worse, it had flaws no one was able to address upstream. This led to the proliferation of (what I felt to be annoying and inelegant) forks not hosted on PyPI e.g.:
+By the mid-2000s, I had quit my job at NIH to do Plone consulting fulltime. In 2010, I was doing Django consulting at National Geographic in DC and I remember coming in the next day and saying "I forked PIL last night." My colleagues' reaction was **yawn** and rightfully so, because no one thought about what Pillow could become, including me. I created the fork because I was annoyed with my inability to install PIL from PyPI. The PIL package was hosted off site; worse, it had flaws no one was willing or able to address upstream. This led to the proliferation of (what I felt to be annoying and inelegant) forks not hosted on PyPI e.g.:
 
 - http://dist.plone.org/thirdparty/PIL-1.1.7.tar.gz
 - http://dist.plone.org/thirdparty/PILwoTk-1.1.6.4.tar.gz
