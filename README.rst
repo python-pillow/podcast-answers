@@ -106,3 +106,8 @@ When I think of ImageMagick, I think of command line tools for image manipulatio
 +----------------+-------------------------------------------------------------------+
 | **Discussion** | https://github.com/python-pillow/podcast-answers/issues/7         |
 +----------------+-------------------------------------------------------------------+
+
+What do you have planned for the future of Pillow?
+--------------------------------------------------
+
+More quarterly releases, security fixes, code cleanup, feature additions, documentation, bigger community.
