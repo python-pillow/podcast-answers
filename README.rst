@@ -57,7 +57,7 @@ Discussion
 What architectural patterns does Pillow use to make image operations fast and flexible? Have you found the need to do any significant refactorings of the original code to make it compatible with modern uses and execution environments?
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-PIL has about 30K lines of C code, which contain various modules for imaging manipulation, that are `made available from Python via C Extensions <https://docs.python.org/2/extending/extending.html>`_. The biggest refactor was probably when `we added <https://github.com/python-pillow/Pillow/pull/35`_ `Python 3 compatibility <https://github.com/python-pillow/grant-proposal#grant-objective>`_. That's when we really started changing things, and Pillow became more than just a packaging fork.
+PIL has about 30K lines of C code, which contain various modules for imaging manipulation, that are `made available from Python via C Extensions <https://docs.python.org/2/extending/extending.html>`_. The biggest refactor was probably when `we added <https://github.com/python-pillow/Pillow/pull/35>`_ `Python 3 compatibility <https://github.com/python-pillow/grant-proposal#grant-objective>`_. That's when we really started changing things, and Pillow became more than just a packaging fork.
 
 Discussion
 ~~~~~~~~~~
