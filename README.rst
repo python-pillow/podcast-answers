@@ -37,3 +37,16 @@ When you first forked the PIL project did you think that you would still be main
 ----------------------------------------------------------------------------------------------------------------------
 
 No. I didn't think about it at all. I just knew that my Plone installations were going to be awesome. When Pillow caught on, I was really happy others found it useful. Now-a-days, most of the day to day operations of Pillow development are performed by the `Pillow Team <https://github.com/orgs/python-pillow/people>`_ and `global community <https://github.com/python-pillow/Pillow/graphs/contributors>`_ without my intervention. I pop in about once per quarter to make sure releases go according to plan, and to prune repositories and issues. Additionally, I just registered python-pillow.org so we could ensure that security-related emails make it to the right members of the team.
+
+Can you describe what PIL and now Pillow are and what kinds of use cases they support?
+--------------------------------------------------------------------------------------
+
+Sure. PIL allows Python programmers to `perform complex image manipulation operations <http://docs.python-guide.org/en/latest/scenarios/imaging/#example>`_ without having to know the details and algorithms involved in performing such operations, e.g.:
+
+- Viewing EXIF data embedded in image
+- Splitting the image into its respective bands, i.e. Red, Green, and Blue for RGB
+- Applying a filter to the image
+
+As a Python Web Developer, I use Pillow to manipulate images in my web applications. In some cases, that manipulation is seemless (e.g. Plone uses Pillow to enable content editors to manipulate images on their website). In other cases, I write Pillow code to perform some manipulation that is needed in my application (e.g. create thumbnails).
+
+- https://github.com/python-pillow/podcast-answers/issues/1
