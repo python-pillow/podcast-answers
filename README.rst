@@ -49,7 +49,7 @@ Sure. PIL allows Python programmers to `perform complex image manipulation opera
 
 As a Python Web Developer, I use Pillow to manipulate images in my web applications. In some cases, that manipulation is seemless (e.g. Plone uses Pillow to enable content editors to manipulate images on their website). In other cases, I write Pillow code to perform some manipulation that is needed in my application (e.g. create thumbnails).
 
-Issue
-~~~~~
+Additional use cases
+~~~~~~~~~~~~~~~~~~~~
 
 - `Can you describe what PIL and now Pillow are and what kinds of use cases they support? <https://github.com/python-pillow/podcast-answers/issues/1>`_
