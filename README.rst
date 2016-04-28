@@ -102,3 +102,7 @@ How does Pillow compare to libraries with a similar purpose such as ImageMagick?
 --------------------------------------------------------------------------------
 
 When I think of ImageMagick, I think of command line tools for image manipulation, which Pillow is not.
+
++----------------+-------------------------------------------------------------------+
+| **Discussion** | https://github.com/python-pillow/podcast-answers/issues/7         |
++----------------+-------------------------------------------------------------------+
