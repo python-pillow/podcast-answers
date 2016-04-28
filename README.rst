@@ -93,3 +93,7 @@ What are some of the most interesting or innovative uses of Pillow that you have
 --------------------------------------------------------------------------------------
 
 My favorite innovation is Jeremy Kun's `Random Psychedlic Art made with PIL <https://jeremykun.com/2012/01/01/random-psychedelic-art/>`_
+
++----------------+-------------------------------------------------------------------+
+| **Discussion** | https://github.com/python-pillow/podcast-answers/issues/6         |
++----------------+-------------------------------------------------------------------+
