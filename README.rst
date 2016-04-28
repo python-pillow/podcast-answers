@@ -61,3 +61,12 @@ PIL has about 30K lines of C code, which contain various modules for imaging man
 +----------------+-------------------------------------------------------------------+
 | **Discussion** | https://github.com/python-pillow/podcast-answers/issues/2         |
 +----------------+-------------------------------------------------------------------+
+
+I have seen Pillow used in computer vision contexts. What are some of the capabilities of the library that lend themselves to this purpose?
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+For as much as computer vision involves basic image processing PIL can help e.g. cropping, resizing, rotating and changing formats. Beyond that, you'll need more powerful tools like `matplotlib, OpenCV, etc. <http://www.pyimagesearch.com/2014/01/12/my-top-9-favorite-python-libraries-for-building-image-search-engines/>`_.
+
++----------------+-------------------------------------------------------------------+
+| **Discussion** | https://github.com/python-pillow/podcast-answers/issues/3         |
++----------------+-------------------------------------------------------------------+
