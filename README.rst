@@ -77,3 +77,10 @@ What kinds of special knowledge or experience have you found to be necessary for
 +----------------+-------------------------------------------------------------------+
 | **Discussion** | https://github.com/python-pillow/podcast-answers/issues/4         |
 +----------------+-------------------------------------------------------------------+
+
+C Programming Language, Python Distutils C Extensions.
+
+Have you kept up to date with newer image formats, such as webp? Are there any image formats that Pillow does not support that you would like to see added to the project?
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Yes. Read/write support for both WebP and JPEG2000 have been added to Pillow. And since I returned to NIH in 2013, I'd probably like to see support for some medical image formats added to Pillow e.g. DICOM, NIfTI.
