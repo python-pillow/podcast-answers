@@ -24,9 +24,16 @@ With Hanno's PIL, it was only possible to import Image from PIL::
 
     from PIL import Image
 
+At the time, I called Pillow "a packaging fork".
+
 What does Fredrik Lundh (author of PIL) think of Pillow?
 --------------------------------------------------------
 
 My favorite story to tell about Fredrik involves a comment he made in response to `my introduction to Pillow on image-sig <https://mail.python.org/pipermail/image-sig/2010-July/006423.html>`_. He said something like "A lot of people complain; at least someone is doing something about it." Or at least that's how I choose to interpret his comment. His exact words (and more context) are here:
 
 - https://mail.python.org/pipermail/image-sig/2010-August/006429.html
+
+When you first forked the PIL project did you think that you would still be maintaining and updating that fork by now?
+----------------------------------------------------------------------------------------------------------------------
+
+No. I didn't think about it at all. I just knew that my Plone installations were going to be awesome. When Pillow caught on, I was really happy others found it useful. Now-a-days, most of the day to day operations of Pillow development are performed by the `Pillow Team <https://github.com/orgs/python-pillow/people>`_ and `global community <https://github.com/python-pillow/Pillow/graphs/contributors>`_ without my intervention. I pop in about once per quarter to make sure releases go according to plan, and to prune repositories and issues. Additionally, I just registered python-pillow.org so we could ensure that security-related emails make it to the right members of the team.
