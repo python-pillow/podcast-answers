@@ -49,10 +49,17 @@ Sure. PIL allows Python programmers to `perform complex image manipulation opera
 
 As a Python Web Developer, I use Pillow to manipulate images in my web applications. In some cases, that manipulation is seemless (i.e. the image manipulation code is already written; e.g. Plone uses Pillow to enable content editors to manipulate images on their website). In other cases, I write Pillow code to perform some manipulation that is needed in my application (e.g. create thumbnails).
 
-Additional use cases
-~~~~~~~~~~~~~~~~~~~~
+Discussion
+~~~~~~~~~~
 
 - `Can you describe what PIL and now Pillow are and what kinds of use cases they support? <https://github.com/python-pillow/podcast-answers/issues/1>`_
 
 What architectural patterns does Pillow use to make image operations fast and flexible? Have you found the need to do any significant refactorings of the original code to make it compatible with modern uses and execution environments?
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PIL has about 30K lines of C code, which contain various modules for imaging manipulation, that are `made available from Python via C Extensions <https://docs.python.org/2/extending/extending.html>`_. The biggest refactor was probably when we added Python 3 compatibility. That's when we really started changing things, and Pillow became more than just a packaging fork.
+
+Discussion
+~~~~~~~~~~
+
+- `What architectural patterns does Pillow use to make image operations fast and flexible? Have you found the need to do any significant refactorings of the original code to make it compatible with modern uses and execution environments? <https://github.com/python-pillow/podcast-answers/issues/2>`_
