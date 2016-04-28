@@ -73,3 +73,7 @@ For as much as computer vision involves basic image processing PIL can help e.g.
 
 What kinds of special knowledge or experience have you found to be necessary for understanding and extending the routines in the library and for adding new capabilities?
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
++----------------+-------------------------------------------------------------------+
+| **Discussion** | https://github.com/python-pillow/podcast-answers/issues/4         |
++----------------+-------------------------------------------------------------------+
