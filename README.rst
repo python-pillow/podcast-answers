@@ -16,7 +16,7 @@ By the mid-2000s, I had quit my job at NIH to do Plone consulting fulltime. In 2
 - http://dist.plone.org/thirdparty/PIL-1.1.7.tar.gz
 - http://dist.plone.org/thirdparty/PILwoTk-1.1.6.4.tar.gz
 
-So I thought, if we're going to use these forks, let's just "go all-in" and publish the fork to PyPI. So that's what I did. Incidentally, the fork was based on work done by a "Plone guy" (at the time) named Hanno Schlicting. He address one major annoyance at the time (with namespace collision)::
+So I thought, if we're going to use these forks, let's just "go all-in" and publish the fork to PyPI. So that's what I did. Incidentally, the fork was based on work done by a "Plone guy" (at the time) named Hanno Schlicting. He addressed one major annoyance at the time (with namespace collision)::
 
     import Image
 
@@ -47,7 +47,7 @@ Sure. PIL allows Python programmers to `perform complex image manipulation opera
 - Splitting the image into its respective bands, i.e. Red, Green, and Blue for RGB
 - Applying a filter to the image
 
-As a Python Web Developer, I use Pillow to manipulate images in my web applications. In some cases, that manipulation is seemless (i.e. the image manipulation code is already written; e.g. Plone uses Pillow to enable content editors to manipulate images on their website). In other cases, I write Pillow code to perform some manipulation that is needed in my application (e.g. create thumbnails).
+As a Python Web Developer, I use Pillow to manipulate images in my web applications. In some cases, that manipulation is seamless (i.e. the image manipulation code is already written; e.g. Plone uses Pillow to enable content editors to manipulate images on their website). In other cases, I write Pillow code to perform some manipulation that is needed in my application (e.g. create thumbnails).
 
 +----------------+-------------------------------------------------------------------+
 | **Discussion** | https://github.com/python-pillow/podcast-answers/issues/1         |
