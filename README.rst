@@ -110,4 +110,4 @@ When I think of ImageMagick, I think of command line tools for image manipulatio
 What do you have planned for the future of Pillow?
 --------------------------------------------------
 
-More quarterly releases, security fixes, code cleanup, feature additions, documentation, bigger community.
+More quarterly releases, security fixes, code cleanup, feature additions, improved documentation, bigger community.
